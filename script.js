@@ -2,41 +2,42 @@ const caixaPrincipal = document.querySelector('.caixa-principal');
 const caixaPergunta = document.querySelector('.caixa-pergunta');
 const caixaAlternativa = document.querySelector('.caixa-alternativa');
 const caixaResultado = document.querySelector('.caixa-resultado');
+const textoResultado = document.querySelector('.texto-resultado');
 
 const perguntas = [//abre a lista de objetos (itens)
     {//abre o item
-        enunciado:"você usa a inteligencia no dia a dia",
+        enunciado:"Você gosta quanddo chove em sua cidade?",
         alternativas:[{
             texto:"Sim",
-            afirmação: "Afirmação da alternativa 1"
+            afirmação: "sim,gosto pois fico assistir filmes,séries,entre outrtos"
         },
         {
             texto:"não",
-            afirmação: "Afirmação da alternativa"   
+            afirmação: "Não, gosto por que não consigo fazer o que gosto quando chove"   
         }
         ]
     },
     {
-        enunciado:"Você acha que a IA pode dominar o mundo",
+        enunciado:"Você gosta de sair para comer?",
         alternativas:[{
             texto:"Sim",
-            afirmação: "afirmação da alternativa 2"
+            afirmação: "sim, gosto pois prefiro comer nos lugar"
         },
         {
             texto:"não",
-            afirmação:"afirmação da alternativa 2"
+            afirmação:"Não, gosto por que prefiro comer em casa"
         }
         ]
     },
     {
-        enunciado:"Você é a favor da IA em diversos trabalhos",
+        enunciado:"Vocẽ prefere dias ensolarados?",
         alternativas:[{
             texto:"Sim",
-            afirmação:"Afirmação da alternativa 3"
+            afirmação:"Sim, prefiro pois posso fazer mais coisas"
         },
         {
             txto:"não",
-            afirmação:"Afirmação da alternativa 3"
+            afirmação:"Não, gosto por que faz muito calor"
         }
         ]
     }

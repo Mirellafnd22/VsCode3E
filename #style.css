@@ -1,12 +1,13 @@
 :root{
-    --cor-fundo:#fdf5e7;
-    --cor-principal: #7666de;
-    --cor-segundaria:#3e39bd ;
-    --cor-destaque: #ad93ff;
+    --cor-fundo:#7608a9;
+    --cor-principal: hsl(248, 78%, 55%);
+    --cor-segundaria:#15108f ;
+    --cor-destaque: #25135a;
     --cor-texto:#0a0310 ; 
 }
 body{ background-color: var(--cor-fundo);
     color: var(--cor-texto);
+
     display: flex;
     align-items: center;
     justify-content: center;
